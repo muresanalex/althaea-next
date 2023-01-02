@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "title": "Despre noi",
+      "href": "#about-us"
+    },
+    {
+      "title": "Homeopatie",
+      "href": "#homeopathy"
+    },
+    {
+      "title": "Intrebari frecvente",
+      "href": "#q&a"
+    },
+    {
+      "title": "Contact",
+      "href": "#contact"
+    }
+  ]
+}
