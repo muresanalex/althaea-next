@@ -1,11 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
 import menu from "../../data/menu.json";
 import styles from "./Header.module.css";
 
-const MOBILE_VIEW_SCREEN_SIZE = 978;
 
 const DesktopHeader = () => {
   return (
@@ -73,23 +72,7 @@ const MobileHeader = () => {
   );
 };
 
-const Header = () => {
-  const [isMobileView, setIsMobileView] = useState(false);
-
-  useEffect(() => {
-    function handleScreenSize() {
-      setIsMobileView(window.innerWidth <= MOBILE_VIEW_SCREEN_SIZE);
-    }
-
-    handleScreenSize();
-    window.addEventListener("resize", handleScreenSize);
-    window.addEventListener("orientationchange", handleScreenSize);
-    return () => {
-      window.removeEventListener("resize", handleScreenSize);
-      window.removeEventListener("orientationchange", handleScreenSize);
-    };
-  }, []);
-
+const Header = ({ isMobileView }) => {
   return (
     <header className={isMobileView ? styles["mobile-header"] : styles.header}>
       {isMobileView && <MobileHeader />}
