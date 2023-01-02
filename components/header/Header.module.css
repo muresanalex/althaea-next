@@ -4,7 +4,7 @@
   left: 0;
   z-index: 1;
   width: 100%;
-  border: 1px solid var(--light-grey);
+  border-bottom: 1px solid var(--light-grey);
   background-color: #fff;
   padding: 8px 0;
 }
@@ -15,7 +15,7 @@
   left: 0;
   z-index: 1;
   width: 100%;
-  border: 1px solid var(--light-grey);
+  border-bottom: 1px solid var(--light-grey);
   background-color: white;
   display: flex;
   justify-content: space-between;
@@ -24,7 +24,7 @@
 }
 nav.mobile-nav {
   position: fixed;
-  top: 52px;
+  top: 51px;
   left: 0;
   width: 100vw;
   background: white;
