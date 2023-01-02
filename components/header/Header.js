@@ -57,6 +57,7 @@ const MobileHeader = () => {
                 <Link
                   onClick={() => setIsHamburgerOpen(false)}
                   href={item.href}
+                  scroll={false}
                 >
                   {item.title}
                 </Link>

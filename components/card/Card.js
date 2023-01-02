@@ -8,8 +8,8 @@ const Card = ({ name, title, attributes }) => (
       className={styles.image}
       src="/pharmacist.svg"
       alt="ilustratie farmacist"
-      width={110}
-      height={145}
+      width={76}
+      height={100}
     />
     <p className={styles.name}>{name}</p>
     <p className={styles.title}>{title}</p>

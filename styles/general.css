@@ -1,9 +1,10 @@
 :root {
   --primary: #19793f;
   --secondary: #86ac43;
-  --light-blue: #30c5ff;
+  --light-green: #71b280;
   --grey: #3a484e;
   --light-grey: #f0f0f0;
+  --grey-blue: #134e5e;
 }
 
 html,
