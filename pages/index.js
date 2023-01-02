@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Head from "next/head";
 import Header from "../components/header/Header";
 import Hero from "../components/hero/Hero";
+import About from "../components/about/About";
 
 const MOBILE_VIEW_SCREEN_SIZE = 978;
 
@@ -30,6 +31,7 @@ export default function Home() {
       <Header isMobileView={isMobileView} />
       <main>
         <Hero isMobileView={isMobileView} />
+        <About />
       </main>
     </>
   );

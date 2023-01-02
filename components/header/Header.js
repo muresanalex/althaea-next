@@ -5,28 +5,31 @@ import Image from "next/image";
 import menu from "../../data/menu.json";
 import styles from "./Header.module.css";
 
-
 const DesktopHeader = () => {
   return (
-    <div className="max-width">
-      <Link href="/">
-        <Image
-          width={235}
-          height={30}
-          src="/logo.png"
-          alt="Logo Farmacia Althaea"
-        />
-      </Link>
-      <nav>
-        <ul className={styles["header-items"]}>
-          {menu.items.map((item) => (
-            <li className={styles["header-item"]} key={item.href}>
-              <Link href={item.href}>{item.title}</Link>
-            </li>
-          ))}
-        </ul>
-      </nav>
-    </div>
+    <header className={styles.header}>
+      <div className="max-width">
+        <Link href="/">
+          <Image
+            width={235}
+            height={30}
+            src="/logo.png"
+            alt="Logo Farmacia Althaea"
+          />
+        </Link>
+        <nav>
+          <ul className={styles["header-items"]}>
+            {menu.items.map((item) => (
+              <li className={styles["header-item"]} key={item.href}>
+                <Link href={item.href} scroll={false}>
+                  {item.title}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </div>
+    </header>
   );
 };
 
@@ -37,7 +40,7 @@ const MobileHeader = () => {
     setIsHamburgerOpen((state) => !state);
   }
   return (
-    <>
+    <header className={styles["mobile-header"]}>
       <Link href="/">
         <Image
           width={235}
@@ -51,7 +54,12 @@ const MobileHeader = () => {
           <ul className={styles["mobile-header-items"]}>
             {menu.items.map((item) => (
               <li className={styles["mobile-header-item"]} key={item.href}>
-                <Link href={item.href}>{item.title}</Link>
+                <Link
+                  onClick={() => setIsHamburgerOpen(false)}
+                  href={item.href}
+                >
+                  {item.title}
+                </Link>
               </li>
             ))}
           </ul>
@@ -68,16 +76,16 @@ const MobileHeader = () => {
           className={isHamburgerOpen ? styles["bar3-open"] : styles.bar3}
         ></div>
       </button>
-    </>
+    </header>
   );
 };
 
 const Header = ({ isMobileView }) => {
   return (
-    <header className={isMobileView ? styles["mobile-header"] : styles.header}>
+    <>
       {isMobileView && <MobileHeader />}
       {!isMobileView && <DesktopHeader />}
-    </header>
+    </>
   );
 };
 
