@@ -1,0 +1,72 @@
+.section {
+  padding: 40px 0;
+}
+
+.title-wrapper {
+  width: 100%;
+  height: 100px;
+  background-image: linear-gradient(90deg, var(--primary), var(--grey));
+  margin-bottom: 40px;
+}
+
+.title {
+  color: white;
+  font-size: 24px;
+  font-weight: 300;
+  margin: 0 auto;
+  display: block;
+  max-width: 1080px;
+  width: 100%;
+  line-height: 100px;
+}
+
+.details {
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column:last-child .column-title {
+  margin-bottom: 48px;
+}
+
+.column-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--primary);
+  margin: 0 0 8px;
+}
+
+.column-subtitle {
+  font-size: 16px;
+  color: var(--grey);
+  font-weight: 100;
+  margin: 0 0 24px;
+}
+
+.warning {
+  color: red;
+}
+
+.link {
+  color: var(--grey);
+  margin-bottom: 12px;
+  font-weight: 100;
+}
+
+.emergency {
+  color: red;
+  margin: 60px auto 40px;
+  font-weight: 700;
+  font-size: 20px;
+  width: 100%;
+  max-width: 1080px;
+  display: block;
+}

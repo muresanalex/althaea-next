@@ -4,6 +4,7 @@ import Header from "../components/header/Header";
 import Hero from "../components/hero/Hero";
 import About from "../components/about/About";
 import Homeopathy from "../components/homeopathy/Homeopathy";
+import Contact from "../components/contact/Contact";
 
 const MOBILE_VIEW_SCREEN_SIZE = 978;
 
@@ -26,6 +27,13 @@ export default function Home() {
   return (
     <>
       <Head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
+        <meta
+          name="description"
+          content="Farmacia Althaea este o farmacie alopata si homeopata din Bistrita."
+        />
         <title>Farmacia Althaea</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -34,6 +42,7 @@ export default function Home() {
         <Hero isMobileView={isMobileView} />
         <About />
         <Homeopathy />
+        <Contact />
       </main>
     </>
   );
