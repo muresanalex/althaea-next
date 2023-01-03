@@ -62,9 +62,3 @@ h2 {
   align-items: center;
   margin: 0 auto;
 }
-
-@media screen and (min-width: 1080px) {
-  p {
-    font-size: 14px;
-  }
-}

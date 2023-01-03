@@ -48,7 +48,20 @@
   font-size: 16px;
   color: var(--grey);
   font-weight: 100;
-  margin: 0 0 24px;
+  margin: 0 0 24px 28px;
+}
+
+.row {
+  display: flex;
+}
+
+.icon {
+  margin-right: 8px;
+}
+
+.list li {
+  list-style-type: none;
+  display: flex;
 }
 
 .warning {
@@ -69,4 +82,33 @@
   width: 100%;
   max-width: 1080px;
   display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .details {
+    flex-direction: column;
+  }
+
+  .column {
+    margin-bottom: 20px;
+  }
+
+  .column:last-child {
+    margin-bottom: 0;
+  }
+
+  .column:last-child .column-title {
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 1079px) {
+  .title,
+  .emergency {
+    padding: 0 20px;
+  }
+
+  .details {
+    padding: 0 20px;
+  }
 }

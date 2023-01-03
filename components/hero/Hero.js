@@ -25,6 +25,7 @@ const HeroDesktop = () => (
         src="/hero.svg"
         alt="ilustratie farmacie"
         fill
+        priority
       />
       <div className="max-width">
         <div className={styles.content}>
