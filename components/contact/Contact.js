@@ -46,12 +46,12 @@ const Contact = () => (
                     )}
                   </p>
                 )}
-                {item.href && !item.openInNewWindow && (
+                {item.href && !item.openInNewTab && (
                   <a href={item.href} className={styles.link}>
                     {item.text}
                   </a>
                 )}
-                {item.href && item.openInNewWindow && (
+                {item.href && item.openInNewTab && (
                   <a
                     href={item.href}
                     className={styles.link}
