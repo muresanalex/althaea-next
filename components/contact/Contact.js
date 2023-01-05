@@ -175,8 +175,8 @@ const Contact = () => (
       În caz de urgență sunați la 112!
     </a>
     <Wrapper apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY}>
-      <Map center={{ lat: 47.1484344152531, lng: 24.4841723341089 }} zoom={16}>
-        <Marker position={{ lat: 47.1484344152531, lng: 24.4841723341089 }} />
+      <Map center={{ lat: 47.14837702405045, lng: 24.4841656642281 }} zoom={16}>
+        <Marker position={{ lat: 47.14837702405045, lng: 24.4841656642281 }} />
       </Map>
     </Wrapper>
   </section>

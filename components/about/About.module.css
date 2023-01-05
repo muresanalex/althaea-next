@@ -13,16 +13,17 @@
   color: var(--primary);
   text-transform: uppercase;
   align-self: center;
-  margin: 0 0 40px;
-  font-size: 20px;
+  margin: 0 0 20px;
+  font-size: 28px;
   font-weight: 300;
 }
 
 .subtitle {
   color: var(--grey);
   font-size: 24px;
-  margin: 0 0 8px;
+  margin: 0 0 24px;
   font-weight: 300;
+  margin-top: 20px;
 }
 
 .cards {

@@ -4,6 +4,7 @@ import styles from "./Homeopathy.module.css";
 
 const Homeopathy = () => (
   <section id="homeopathy" className={styles.section}>
+    <div className={styles.line} />
     <div className={styles["max-width"]}>
       <h3 className={styles.title}>Homeopatie</h3>
       <section className={styles.subsection}>

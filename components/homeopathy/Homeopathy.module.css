@@ -4,7 +4,18 @@
     var(--light-green),
     var(--grey-blue)
   );
-  padding: 40px 0;
+  padding: 60px 0;
+  position: relative;
+}
+
+.line {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 6px;
+  height: 60px;
+  background-color: white;
 }
 
 .max-width {
@@ -17,7 +28,7 @@
 
 .title {
   color: white;
-  font-size: 20px;
+  font-size: 28px;
   font-weight: 300;
   text-transform: uppercase;
   align-self: center;
@@ -65,7 +76,7 @@
 
 @media screen and (max-width: 1079px) {
   .section {
-    padding: 40px 20px 0;
+    padding: 40px 20px 60px;
   }
 }
 

@@ -9,8 +9,8 @@ const HeroMobile = () => (
       <div className={styles["mobile-content"]}>
         <h1>Farmacia Althaea</h1>
         <h2>Alopatie. Homeopatie. Preparate oficinale.</h2>
-        <Link href="#contact" className={styles.button}>
-          Contacteaza-ne
+        <Link href="#contact" className={styles.button} scroll={false}>
+          Unde ne gasesti
         </Link>
       </div>
     </div>
@@ -31,8 +31,8 @@ const HeroDesktop = () => (
         <div className={styles.content}>
           <h1>Farmacia Althaea</h1>
           <h2>Alopatie. Homeopatie. Preparate oficinale.</h2>
-          <Link href="#contact" className={styles.button}>
-            Contacteaza-ne
+          <Link href="#contact" className={styles.button} scroll={false}>
+            Unde ne gasesti
           </Link>
         </div>
       </div>

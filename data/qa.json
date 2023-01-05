@@ -1,0 +1,67 @@
+{
+  "items": [
+    {
+      "id": "alopatie",
+      "title": "Alopatie",
+      "qna": [
+        {
+          "id": 1,
+          "question": "Ce este alopatia?",
+          "answer": "Homeopatia este o metoda terapeutica destinata ameliorarii starii de sanatate a unui organism, prin administrarea unor substante diluate si dinamizate, utilizate ca medicamente."
+        },
+        {
+          "id": 2,
+          "question": "Ce este alopatia?",
+          "answer": "Homeopatia este o metoda terapeutica destinata ameliorarii starii de sanatate a unui organism, prin administrarea unor substante diluate si dinamizate, utilizate ca medicamente."
+        },
+        {
+          "id": 3,
+          "question": "Ce este alopatia?",
+          "answer": "Homeopatia este o metoda terapeutica destinata ameliorarii starii de sanatate a unui organism, prin administrarea unor substante diluate si dinamizate, utilizate ca medicamente."
+        }
+      ]
+    },
+    {
+      "id": "homeopatie",
+      "title": "Homeopatie",
+      "qna": [
+        {
+          "id": 4,
+          "question": "Ce este homeopatia?",
+          "answer": "Homeopatia este o metoda terapeutica destinata ameliorarii starii de sanatate a unui organism, prin administrarea unor substante diluate si dinamizate, utilizate ca medicamente."
+        },
+        {
+          "id": 5,
+          "question": "Ce este homeopatia?",
+          "answer": "Homeopatia este o metoda terapeutica destinata ameliorarii starii de sanatate a unui organism, prin administrarea unor substante diluate si dinamizate, utilizate ca medicamente."
+        },
+        {
+          "id": 6,
+          "question": "Ce este homeopatia?",
+          "answer": "Homeopatia este o metoda terapeutica destinata ameliorarii starii de sanatate a unui organism, prin administrarea unor substante diluate si dinamizate, utilizate ca medicamente."
+        }
+      ]
+    },
+    {
+      "id": "preparare",
+      "title": "Preparare",
+      "qna": [
+        {
+          "id": 7,
+          "question": "Ce este prepararea?",
+          "answer": "Homeopatia este o metoda terapeutica destinata ameliorarii starii de sanatate a unui organism, prin administrarea unor substante diluate si dinamizate, utilizate ca medicamente."
+        },
+        {
+          "id": 8,
+          "question": "Ce este prepararea?",
+          "answer": "Homeopatia este o metoda terapeutica destinata ameliorarii starii de sanatate a unui organism, prin administrarea unor substante diluate si dinamizate, utilizate ca medicamente."
+        },
+        {
+          "id": 9,
+          "question": "Ce este prepararea?",
+          "answer": "Homeopatia este o metoda terapeutica destinata ameliorarii starii de sanatate a unui organism, prin administrarea unor substante diluate si dinamizate, utilizate ca medicamente."
+        }
+      ]
+    }
+  ]
+}

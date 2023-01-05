@@ -5,6 +5,7 @@ import Hero from "../components/hero/Hero";
 import About from "../components/about/About";
 import Homeopathy from "../components/homeopathy/Homeopathy";
 import Contact from "../components/contact/Contact";
+import Qa from "../components/qa/Qa";
 
 const MOBILE_VIEW_SCREEN_SIZE = 978;
 
@@ -42,6 +43,7 @@ export default function Home() {
         <Hero isMobileView={isMobileView} />
         <About />
         <Homeopathy />
+        <Qa isMobileView={isMobileView} />
         <Contact />
       </main>
     </>

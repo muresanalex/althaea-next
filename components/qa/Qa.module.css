@@ -1,0 +1,152 @@
+.section {
+  max-width: 1080px;
+  width: 100%;
+  margin: 100px auto 20px;
+  position: relative;
+}
+
+.line {
+  position: absolute;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 6px;
+  height: 60px;
+  background-color: var(--grey);
+}
+
+.section h3 {
+  font-size: 28px;
+  font-weight: 300;
+  color: var(--grey);
+  margin: 0 0 48px;
+  text-align: center;
+}
+
+.tab-section {
+  display: flex;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  margin-right: 80px;
+  width: 350px;
+  flex: 0 0 350px;
+  height: 400px;
+  background-color: var(--grey);
+  padding: 24px;
+  border-radius: 20px;
+}
+
+.title-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.title-section img {
+  margin-right: 16px;
+}
+
+.tabs h4 {
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.tabs button {
+  height: 54px;
+  border: none;
+  cursor: pointer;
+  padding: 0 28px;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+
+.tab-button {
+  color: white;
+  background: transparent;
+  text-align: left;
+}
+
+.tab-button:hover,
+.tab-active {
+  background-color: white;
+  color: var(--grey);
+  border-radius: 10px;
+}
+
+.dropdown {
+  border-bottom: 1px solid var(--light-grey);
+  width: 100%;
+}
+
+.dropdown button {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 68px;
+  padding: 24px 0;
+  color: var(--grey);
+  font-size: 18px;
+  font-weight: 300;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.dropdown p {
+  padding: 0 32px;
+}
+
+.content {
+  height: 0;
+  overflow: hidden;
+}
+
+.mobile-tabs {
+  width: 100%;
+  height: 52px;
+  background-color: var(--grey);
+  display: flex;
+  border: 1px solid var(--grey);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.mobile-tabs button {
+  flex: 1;
+  border: none;
+  border-right: 1px solid var(--light-grey);
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 300;
+  color: white;
+}
+
+.mobile-tabs button:last-child {
+  border-right: none;
+}
+
+button.mobile-tabs button:hover,
+button.mobile-tab-active {
+  background-color: white;
+  color: var(--grey);
+}
+
+@media screen and (max-width: 978px) {
+  .tab-section {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1079px) {
+  .section {
+    padding: 0 20px;
+  }
+}
