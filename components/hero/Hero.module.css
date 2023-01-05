@@ -39,7 +39,7 @@ section.hero-section {
   justify-content: center;
   background-color: var(--secondary);
   color: white;
-  filter: drop-shadow(0px 4px 4px var(--grey));
+  filter: drop-shadow(0px 2px 4px var(--grey));
   width: 150px;
   height: 40px;
   border: none;

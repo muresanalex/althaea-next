@@ -1,5 +1,5 @@
 .section {
-  padding: 40px 0;
+  padding: 40px 0 0;
 }
 
 .title-wrapper {
@@ -73,6 +73,10 @@
   color: var(--grey);
   margin-bottom: 12px;
   font-weight: 100;
+}
+
+.link:hover {
+color: var(--primary);
 }
 
 .emergency {

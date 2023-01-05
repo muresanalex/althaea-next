@@ -1,0 +1,106 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "Farmacia Althaea Bistrița",
+      "subtitle": "Strada Busuiocului 10, Bistrița",
+      "imageSrc": "/pin.svg",
+      "imageAlt": "pin harta",
+      "items": [
+        {
+          "id": 1,
+          "imageSrc": "/clock.svg",
+          "imageAlt": "ilustratie ceas",
+          "text": "Luni - Vineri: 08:00 - 20:00",
+          "redText": null
+        },
+        {
+          "id": 2,
+          "imageSrc": "/clock.svg",
+          "imageAlt": "ilustratie ceas",
+          "text": "Sâmbătă: 09:00 - 14:00",
+          "redText": null
+        },
+        {
+          "id": 3,
+          "imageSrc": "/clock.svg",
+          "imageAlt": "ilustratie ceas",
+          "text": "Duminică:",
+          "redText": " închis"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Punct farmaceutic Matei",
+      "subtitle": "Strada Principala 182, Matei",
+      "imageSrc": "/pin.svg",
+      "imageAlt": "pin harta",
+      "items": [
+        {
+          "id": 4,
+          "imageSrc": "/clock.svg",
+          "imageAlt": "ilustratie ceas",
+          "text": "Luni - Vineri: 08:00 - 20:00",
+          "redText": null
+        },
+        {
+          "id": 5,
+          "imageSrc": "/clock.svg",
+          "imageAlt": "ilustratie ceas",
+          "text": "Sâmbătă:",
+          "redText": " închis"
+        },
+        {
+          "id": 6,
+          "imageSrc": "/clock.svg",
+          "imageAlt": "ilustratie ceas",
+          "text": "Duminică:",
+          "redText": " închis"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Detalii de contact",
+      "subtitle": null,
+      "imageSrc": "/contact.svg",
+      "imageAlt": "ilustratie agenda",
+      "items": [
+        {
+          "id": 7,
+          "imageSrc": "/phone.svg",
+          "imageAlt": "ilustratie telefon",
+          "text": "0263 341 432",
+          "redText": null,
+          "href": "tel:+40263 341 432"
+        },
+        {
+          "id": 8,
+          "imageSrc": "/mail.svg",
+          "imageAlt": "ilustratie plic",
+          "text": "althaea.farm@yahoo.com",
+          "redText": null,
+          "href": "mailto:althaea.farm@yahoo.com"
+        },
+        {
+          "id": 9,
+          "imageSrc": "/mail.svg",
+          "imageAlt": "ilustratie plic",
+          "text": "althaea.farma@gmail.com",
+          "redText": null,
+          "href": "mailto:althaea.farma@gmail.com"
+        },
+        {
+          "id": 10,
+          "imageSrc": "/facebook.svg",
+          "imageAlt": "icoana facebook",
+          "text": "Farmacia Althaea",
+          "redText": null,
+          "href": "https://www.facebook.com/profile.php?id=100064110066395",
+          "openInNewWindow": true
+        }
+      ]
+    }
+  ]
+}

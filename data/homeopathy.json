@@ -1,0 +1,33 @@
+{
+  "title": "Homeopatie",
+  "sections": [
+    {
+      "id": 1,
+      "title": "CE ESTE HOMEOPATIA?",
+      "items": [
+        {
+          "id": 1,
+          "text": "Homeopatia este o metoda terapeutica destinata ameliorarii starii de sanatate a unui organism, prin administrarea unor substante diluate si dinamizate, utilizate ca medicamente."
+        },
+        {
+          "id": 2,
+          "text": "Homeopatia se bazeaza pe principiul „cui pe cui se scoate”, formulat pentru prima data in anul 1796 de medicul german Samuel Hahnemann, conform caruia o substanta administrata in doze mici poate vindeca o boala generata de folosirea in exces a aceleiasi substante."
+        },
+        {
+          "id": 3,
+          "text": "Cand va prescrie un tratament, medicul homeopat isi va analiza pacientul fizic, mental si emotional. Fiind o terapie holistica, unul dintre principiile de baza ale homeopatiei este acela ca trateaza persoana ca un intreg, nu doar simptomele."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "REMEDIILE",
+      "items": [
+        {
+          "id": 4,
+          "text": "Medicatia homeopata este obtinuta din substante de natura animala, vegetala sau minerala, diluate in mod repetat, astfel incat elementul chimic original sa fie prezent in cantitati extrem de mici, sau chiar absent, in cazul anumitor solutii. Medicamentele homeopate stimuleaza vindecarea naturala a organismului, ele nu au actiune asupra agentilor patogeni."
+        }
+      ]
+    }
+  ]
+}
