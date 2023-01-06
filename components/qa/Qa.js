@@ -13,7 +13,7 @@ const TabSelector = ({ tabs, selectedTab, setSelectedTab }) => {
           width={40}
           height={40}
         />
-        <h4>Intrebari frecvente</h4>
+        <h4>Întrebări frecvente</h4>
       </div>
       {tabs.map((tab) => (
         <button
@@ -87,7 +87,7 @@ const Qa = ({ isMobileView }) => {
   return (
     <section id="q&a" className={styles.section}>
       <div className={styles.line} />
-      <h3>Intrebari frecvente</h3>
+      <h3>Întrebări frecvente</h3>
       <div className={styles["tab-section"]}>
         {isMobileView && (
           <MobileTabSelector
