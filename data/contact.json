@@ -5,26 +5,26 @@
       "title": "Farmacia Althaea Bistrița",
       "subtitle": "Strada Busuiocului 10, Bistrița",
       "imageSrc": "/pin.svg",
-      "imageAlt": "pin harta",
+      "imageAlt": "pin hartă",
       "items": [
         {
           "id": 1,
           "imageSrc": "/clock.svg",
-          "imageAlt": "ilustratie ceas",
+          "imageAlt": "ilustrație ceas",
           "text": "Luni - Vineri: 08:00 - 20:00",
           "redText": null
         },
         {
           "id": 2,
           "imageSrc": "/clock.svg",
-          "imageAlt": "ilustratie ceas",
+          "imageAlt": "ilustrație ceas",
           "text": "Sâmbătă: 09:00 - 14:00",
           "redText": null
         },
         {
           "id": 3,
           "imageSrc": "/clock.svg",
-          "imageAlt": "ilustratie ceas",
+          "imageAlt": "ilustrație ceas",
           "text": "Duminică:",
           "redText": " închis"
         }
@@ -33,28 +33,28 @@
     {
       "id": 2,
       "title": "Punct farmaceutic Matei",
-      "subtitle": "Strada Principala 182, Matei",
+      "subtitle": "Strada Principală 182, Matei",
       "imageSrc": "/pin.svg",
-      "imageAlt": "pin harta",
+      "imageAlt": "pin hartă",
       "items": [
         {
           "id": 4,
           "imageSrc": "/clock.svg",
-          "imageAlt": "ilustratie ceas",
+          "imageAlt": "ilustrație ceas",
           "text": "Luni - Vineri: 08:00 - 20:00",
           "redText": null
         },
         {
           "id": 5,
           "imageSrc": "/clock.svg",
-          "imageAlt": "ilustratie ceas",
+          "imageAlt": "ilustrație ceas",
           "text": "Sâmbătă:",
           "redText": " închis"
         },
         {
           "id": 6,
           "imageSrc": "/clock.svg",
-          "imageAlt": "ilustratie ceas",
+          "imageAlt": "ilustrație ceas",
           "text": "Duminică:",
           "redText": " închis"
         }
@@ -65,12 +65,12 @@
       "title": "Detalii de contact",
       "subtitle": null,
       "imageSrc": "/contact.svg",
-      "imageAlt": "ilustratie agenda",
+      "imageAlt": "ilustrație agendă",
       "items": [
         {
           "id": 7,
           "imageSrc": "/phone.svg",
-          "imageAlt": "ilustratie telefon",
+          "imageAlt": "ilustrație telefon",
           "text": "0263 341 432",
           "redText": null,
           "href": "tel:+40263 341 432"
@@ -78,7 +78,7 @@
         {
           "id": 8,
           "imageSrc": "/mail.svg",
-          "imageAlt": "ilustratie plic",
+          "imageAlt": "ilustrație plic",
           "text": "althaea.farm@yahoo.com",
           "redText": null,
           "href": "mailto:althaea.farm@yahoo.com"
@@ -86,7 +86,7 @@
         {
           "id": 9,
           "imageSrc": "/mail.svg",
-          "imageAlt": "ilustratie plic",
+          "imageAlt": "ilustrație plic",
           "text": "althaea.farma@gmail.com",
           "redText": null,
           "href": "mailto:althaea.farma@gmail.com"
@@ -94,7 +94,7 @@
         {
           "id": 10,
           "imageSrc": "/facebook.svg",
-          "imageAlt": "icoana facebook",
+          "imageAlt": "iconiță facebook",
           "text": "Farmacia Althaea",
           "redText": null,
           "href": "https://www.facebook.com/profile.php?id=100064110066395",

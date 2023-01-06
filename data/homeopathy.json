@@ -7,15 +7,15 @@
       "items": [
         {
           "id": 1,
-          "text": "Homeopatia este o metoda terapeutica destinata ameliorarii starii de sanatate a unui organism, prin administrarea unor substante diluate si dinamizate, utilizate ca medicamente."
+          "text": "Homeopatia este o metodă terapeutică destinată ameliorării stării de sănătate a unui organism, prin administrarea unor substanțe diluate și dinamizate, utilizate că medicamente."
         },
         {
           "id": 2,
-          "text": "Homeopatia se bazeaza pe principiul „cui pe cui se scoate”, formulat pentru prima data in anul 1796 de medicul german Samuel Hahnemann, conform caruia o substanta administrata in doze mici poate vindeca o boala generata de folosirea in exces a aceleiasi substante."
+          "text": "Homeopatia se bazează pe principiul „cui pe cui se scoate”, formulat pentru prima dată în anul 1796 de medicul german Samuel Hahnemann, conform căruia o substanță administrată în doze mici poate vindecă o boală generată de folosirea în exces a aceleiași substanțe."
         },
         {
           "id": 3,
-          "text": "Cand va prescrie un tratament, medicul homeopat isi va analiza pacientul fizic, mental si emotional. Fiind o terapie holistica, unul dintre principiile de baza ale homeopatiei este acela ca trateaza persoana ca un intreg, nu doar simptomele."
+          "text": "Când va prescrie un tratament, medicul homeopat își va analiză pacientul fizic, mental și emoțional. Fiind o terapie holistică, unul dintre principiile de baza ale homeopatiei este acela că tratează persoană că un întreg, nu doar simptomele."
         }
       ]
     },
@@ -25,7 +25,7 @@
       "items": [
         {
           "id": 4,
-          "text": "Medicatia homeopata este obtinuta din substante de natura animala, vegetala sau minerala, diluate in mod repetat, astfel incat elementul chimic original sa fie prezent in cantitati extrem de mici, sau chiar absent, in cazul anumitor solutii. Medicamentele homeopate stimuleaza vindecarea naturala a organismului, ele nu au actiune asupra agentilor patogeni."
+          "text": "Medicația homeopată este obținută din substanțe de natură animală, vegetală sau minerală, diluate în mod repetat, astfel încât elementul chimic original să fie prezent în cantități extrem de mici, sau chiar absent, în cazul anumitor soluții. Medicamentele homeopate stimulează vindecarea naturală a organismului, ele nu au acțiune asupra agenților patogeni."
         }
       ]
     }

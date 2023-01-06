@@ -34,9 +34,9 @@ export default function Home() {
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <meta
           name="description"
-          content="Farmacia Althaea este o farmacie alopata si homeopata din Bistrita."
+          content="Farmacia Althaea din Bistrița este locul perfect pentru a găsi soluții homeopate pentru problemele dumneavoastră de sănătate."
         />
-        <title>Farmacia Althaea</title>
+        <title>Farmacia Althaea - medicamente homeopate in Bistrița</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header isMobileView={isMobileView} />

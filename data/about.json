@@ -2,15 +2,15 @@
   "items": {
     "title": "Cine suntem",
     "subtitle": "Servicii farmaceutice din 2009",
-    "secondSubtitle": "Echipa noastra",
+    "secondSubtitle": "Echipa noastră",
     "paragraphs": [
       {
         "id": 1,
-        "text": "Infiintata in 2009, farmacia Althaea asigura serviciile farmaceutice necesare pentru a garanta asistenţa farmaceutică a populaţiei, cu scopul asigurării celui mai bun răspuns la nevoile şi problemele de sănătate ale populaţiei în ansamblu şi ale pacientului în mod individual."
+        "text": "Înființată în 2009, farmacia Althaea asigura serviciile farmaceutice necesare pentru a garanta asistenţa farmaceutică a populaţiei, cu scopul asigurării celui mai bun răspuns la nevoile şi problemele de sănătate ale populaţiei în ansamblu şi ale pacientului în mod individual."
       },
       {
         "id": 2,
-        "text": "Serviciile farmaceutice includ eliberarea medicamentelor şi oferirea de informaţii privind modul de utilizare a acestora, utilizarea raţională a medicamentelor, supravegherea modului de administrare a acestora, identificarea şi evitarea efectelor adverse ale medicamentelor, asigurarea accesului la medicaţie prin prepararea medicamentelor etc. Serviciile farmaceutice sunt parte a sistemului de sănătate şi au ca scop îmbunătăţirea stării de sănătate şi creşterea calităţii vieţii populaţiei."
+        "text": "Serviciile farmaceutice includ eliberarea medicamentelor şi oferirea de informaţii privind modul de utilizare a acestora, utilizarea raţională a medicamentelor, supravegherea modului de administrare a acestora, identificarea şi evitarea efectelor adverse ale medicamentelor, asigurarea accesului la medicaţie prin prepararea medicamentelor etc. Serviciile farmaceutice sunt parte a sistemului de sănătate şi au că scop îmbunătăţirea stării de sănătate şi creşterea calităţii vieţii populaţiei."
       }
     ]
   }
