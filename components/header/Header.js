@@ -15,6 +15,7 @@ const DesktopHeader = () => {
             height={30}
             src="/logo.png"
             alt="Logo Farmacia Althaea"
+            priority
           />
         </Link>
         <nav>
@@ -47,6 +48,7 @@ const MobileHeader = () => {
           height={30}
           src="/logo.png"
           alt="Logo Farmacia Althaea"
+          priority
         />
       </Link>
       {isHamburgerOpen && (
