@@ -98,6 +98,15 @@
   cursor: pointer;
 }
 
+.chevron {
+  transition: transform 0.5s;
+}
+
+.chevron-open {
+  transform: rotate(180deg);
+  transition: transform 0.5s;
+}
+
 .dropdown p {
   padding: 0 32px;
 }
@@ -105,6 +114,7 @@
 .content {
   height: 0;
   overflow: hidden;
+  margin: 0;
 }
 
 .mobile-tabs {

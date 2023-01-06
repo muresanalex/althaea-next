@@ -1,5 +1,5 @@
 .card {
-  width: 240px;
+  width: 250px;
   height: 300px;
   background-color: white;
   border: 1px solid var(--light-grey);
@@ -57,7 +57,7 @@
 
 @media screen and (max-width: 1079px) {
   .card {
-    flex: 0 0 240px;
+    flex: 0 0 250px;
     margin: 0 26px 0 0;
   }
 

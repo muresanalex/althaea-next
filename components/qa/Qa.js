@@ -58,7 +58,16 @@ const Dropdown = ({ title, content, index }) => {
 
   return (
     <div className={styles.dropdown}>
-      <button onClick={toggle}>{title}</button>
+      <button onClick={toggle}>
+        {title}
+        <Image
+          src="/chevron.svg"
+          alt="sageata"
+          width={20}
+          height={20}
+          className={isOpen ? styles["chevron-open"] : styles.chevron}
+        />
+      </button>
       <p className={isOpen ? styles["open-content"] : styles.content}>
         {content}
       </p>
