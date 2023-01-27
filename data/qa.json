@@ -12,12 +12,12 @@
         {
           "id": 5,
           "question": "Cum se administrează medicamentele homeopate?",
-          "answer": "O doza pentru adulți este de 5 granule sau 10 picături, iar pentru copii doza este de 3 granule sau 5 picături. Granulele se țin sub limba sau în gura, pana la dizolvarea completa. Picăturile se pun într-o cantitate mica de apa și se țin puțin în gura înainte de înghițire. Se recomanda ca o jumătate de ora înainte de administrare și o jumătate de ora după administrare sa nu se consume alimente."
+          "answer": "O doză pentru adulți este de 5 granule sau 10 picături, iar pentru copii doza este de 3 granule sau 5 picături. Granulele se țin sub limbă sau în gură, pană la dizolvarea completă. Picăturile se pun într-o cantitate mică de apă și se țin puțin în gură înainte de înghițire. Se recomandă ca o jumătate de oră înainte de administrare și o jumătate de ora după administrare să nu se consume alimente."
         },
         {
           "id": 6,
-          "question": "Cu ce frecventa se pot administra medicamentele homeopate?",
-          "answer": "Frecventa administrării este stabilita de medicul homeopat."
+          "question": "Cu ce frecvență se pot administra medicamentele homeopate?",
+          "answer": "Frecvența administrării este stabilită de medicul homeopat."
         }
       ]
     }
