@@ -52,6 +52,7 @@ h2 {
   color: white;
   margin-top: 0px;
   margin-bottom: 24px;
+  max-width: 450px;
 }
 
 .max-width {

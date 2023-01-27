@@ -59,9 +59,14 @@
   .card {
     flex: 0 0 250px;
     margin: 0 26px 0 0;
+    padding: 0 26px;
   }
 
   .card:last-child {
     margin: 0;
+  }
+
+  .title {
+    font-size: 16px;
   }
 }

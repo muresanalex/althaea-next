@@ -2,28 +2,28 @@
   "items": [
     {
       "name": "Pop Ioana",
-      "title": "Farmacist",
+      "title": "Farmacist specialist",
       "attributes": ["Alopatie", "Homeopatie", "Preparare"]
     },
     {
-      "name": "Petrean Gabriela",
+      "name": "Petreanu Gabriela",
       "title": "Farmacist",
       "attributes": ["Alopatie", "Homeopatie", "Preparare"]
     },
     {
       "name": "Mureșan Iulia",
       "title": "Farmacist",
-      "attributes": ["Alopatie", "Homeopatie", "Preparare"]
+      "attributes": ["Alopatie", "Preparare"]
     },
     {
-      "name": "Lorem ipsum 1",
-      "title": "Asistent",
-      "attributes": ["Alopatie", "Homeopatie"]
+      "name": "Boerean Georgeta",
+      "title": "Asistent farmacie",
+      "attributes": ["Alopatie", "Preparare"]
     },
     {
-      "name": "Lorem ipsum 2",
-      "title": "Asistent",
-      "attributes": ["Alopatie", "Homeopatie"]
+      "name": "Pop Daniela",
+      "title": "Asistent farmacie",
+      "attributes": ["Alopatie", "Preparare"]
     }
   ]
 }

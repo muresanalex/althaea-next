@@ -8,7 +8,7 @@ const HeroMobile = () => (
     <div className={styles["mobile-wrapper"]}>
       <div className={styles["mobile-content"]}>
         <h1>Farmacia Althaea</h1>
-        <h2>Alopatie. Homeopatie. Preparate oficinale.</h2>
+        <h2>Alopatie. Homeopatie. Preparate oficinale si magistrale.</h2>
         <Link href="#contact" className={styles.button} scroll={false}>
           Unde ne gasesti
         </Link>
@@ -30,7 +30,7 @@ const HeroDesktop = () => (
       <div className="max-width">
         <div className={styles.content}>
           <h1>Farmacia Althaea</h1>
-          <h2>Alopatie. Homeopatie. Preparate oficinale.</h2>
+          <h2>Alopatie. Homeopatie. Preparate oficinale si magistrale.</h2>
           <Link href="#contact" className={styles.button} scroll={false}>
             Unde ne gasesti
           </Link>

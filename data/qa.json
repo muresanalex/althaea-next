@@ -1,65 +1,23 @@
 {
   "items": [
     {
-      "id": "alopatie",
-      "title": "Alopatie",
-      "qna": [
-        {
-          "id": 1,
-          "question": "Ce este alopatia?",
-          "answer": "Homeopatia este o metoda terapeutica destinata ameliorarii starii de sanatate a unui organism, prin administrarea unor substante diluate si dinamizate, utilizate ca medicamente."
-        },
-        {
-          "id": 2,
-          "question": "Ce este alopatia?",
-          "answer": "Homeopatia este o metoda terapeutica destinata ameliorarii starii de sanatate a unui organism, prin administrarea unor substante diluate si dinamizate, utilizate ca medicamente."
-        },
-        {
-          "id": 3,
-          "question": "Ce este alopatia?",
-          "answer": "Homeopatia este o metoda terapeutica destinata ameliorarii starii de sanatate a unui organism, prin administrarea unor substante diluate si dinamizate, utilizate ca medicamente."
-        }
-      ]
-    },
-    {
       "id": "homeopatie",
       "title": "Homeopatie",
       "qna": [
         {
           "id": 4,
-          "question": "Ce este homeopatia?",
-          "answer": "Homeopatia este o metoda terapeutica destinata ameliorarii starii de sanatate a unui organism, prin administrarea unor substante diluate si dinamizate, utilizate ca medicamente."
+          "question": "Medicamentele homeopate pot fi folosite de către copiii mici sau femeile însărcinate?",
+          "answer": "Da, copiii mici și femeile însărcinate pot folosi medicamente homeopate."
         },
         {
           "id": 5,
-          "question": "Ce este homeopatia?",
-          "answer": "Homeopatia este o metoda terapeutica destinata ameliorarii starii de sanatate a unui organism, prin administrarea unor substante diluate si dinamizate, utilizate ca medicamente."
+          "question": "Cum se administrează medicamentele homeopate?",
+          "answer": "O doza pentru adulți este de 5 granule sau 10 picături, iar pentru copii doza este de 3 granule sau 5 picături. Granulele se țin sub limba sau în gura, pana la dizolvarea completa. Picăturile se pun într-o cantitate mica de apa și se țin puțin în gura înainte de înghițire. Se recomanda ca o jumătate de ora înainte de administrare și o jumătate de ora după administrare sa nu se consume alimente."
         },
         {
           "id": 6,
-          "question": "Ce este homeopatia?",
-          "answer": "Homeopatia este o metoda terapeutica destinata ameliorarii starii de sanatate a unui organism, prin administrarea unor substante diluate si dinamizate, utilizate ca medicamente."
-        }
-      ]
-    },
-    {
-      "id": "preparare",
-      "title": "Preparare",
-      "qna": [
-        {
-          "id": 7,
-          "question": "Ce este prepararea?",
-          "answer": "Homeopatia este o metoda terapeutica destinata ameliorarii starii de sanatate a unui organism, prin administrarea unor substante diluate si dinamizate, utilizate ca medicamente."
-        },
-        {
-          "id": 8,
-          "question": "Ce este prepararea?",
-          "answer": "Homeopatia este o metoda terapeutica destinata ameliorarii starii de sanatate a unui organism, prin administrarea unor substante diluate si dinamizate, utilizate ca medicamente."
-        },
-        {
-          "id": 9,
-          "question": "Ce este prepararea?",
-          "answer": "Homeopatia este o metoda terapeutica destinata ameliorarii starii de sanatate a unui organism, prin administrarea unor substante diluate si dinamizate, utilizate ca medicamente."
+          "question": "Cu ce frecventa se pot administra medicamentele homeopate?",
+          "answer": "Frecventa administrării este stabilita de medicul homeopat."
         }
       ]
     }
