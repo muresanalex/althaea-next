@@ -11,17 +11,17 @@
       "attributes": ["Alopatie", "Homeopatie", "Preparare"]
     },
     {
-      "name": "Mureșan Iulia",
-      "title": "Farmacist",
-      "attributes": ["Alopatie", "Preparare"]
-    },
-    {
       "name": "Boerean Georgeta",
       "title": "Asistent farmacie",
       "attributes": ["Alopatie", "Preparare"]
     },
     {
       "name": "Pop Daniela",
+      "title": "Asistent farmacie",
+      "attributes": ["Alopatie", "Preparare"]
+    },
+    {
+      "name": "Marica Iulia",
       "title": "Asistent farmacie",
       "attributes": ["Alopatie", "Preparare"]
     }
