@@ -1,0 +1,27 @@
+.content-wrapper {
+  max-width: 1080px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-wrapper h1 {
+  color: var(--grey);
+  font-size: 36px;
+  margin-top: 12px;
+}
+
+.content-wrapper h2 {
+  color: var(--grey);
+  margin-top: 20px;
+}
+
+.content-wrapper ul {
+  padding-left: 28px;
+  font-weight: 100;
+}
+
+@media screen and (max-width: 1079px) {
+  .content-wrapper {
+    padding: 0 20px;
+  }
+}

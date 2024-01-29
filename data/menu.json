@@ -2,19 +2,19 @@
   "items": [
     {
       "title": "Despre noi",
-      "href": "#about-us"
+      "href": "/#about-us"
     },
     {
       "title": "Homeopatie",
-      "href": "#homeopathy"
+      "href": "/#homeopathy"
     },
     {
       "title": "Întrebări frecvente",
-      "href": "#q&a"
+      "href": "/#q&a"
     },
     {
       "title": "Contact",
-      "href": "#contact"
+      "href": "/#contact"
     }
   ]
 }

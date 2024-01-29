@@ -7,6 +7,8 @@ import Homeopathy from "../components/homeopathy/Homeopathy";
 import Contact from "../components/contact/Contact";
 import Qa from "../components/qa/Qa";
 import Footer from "../components/footer/Footer";
+import CookieConsent from "react-cookie-consent";
+import Link from "next/link";
 
 const MOBILE_VIEW_SCREEN_SIZE = 978;
 
@@ -48,6 +50,21 @@ export default function Home() {
         <Contact />
       </main>
       <Footer />
+      <CookieConsent
+        location="bottom"
+        buttonText="De acord"
+        cookieName="cookie-consent"
+        style={{ background: "var(--grey)" }}
+        buttonStyle={{
+          color: "white",
+          background: "var(--secondary)",
+          fontSize: "14px",
+        }}
+        expires={150}
+      >
+        Website-ul nostru utilizează cookie-uri pentru a vă oferi o experiență
+        online personalizată.
+      </CookieConsent>
     </>
   );
 }

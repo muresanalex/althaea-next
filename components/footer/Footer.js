@@ -21,6 +21,11 @@ const Footer = () => {
                 </Link>
               </li>
             ))}
+            <li key="Politica de confidentialitate">
+              <Link href="politica-de-confidentialitate" scroll={true}>
+                Politica de confidențialitate
+              </Link>
+            </li>
           </ul>
         </div>
         <div className={styles.contact}>
