@@ -8,7 +8,6 @@ import Contact from "../components/contact/Contact";
 import Qa from "../components/qa/Qa";
 import Footer from "../components/footer/Footer";
 import CookieConsent from "react-cookie-consent";
-import Link from "next/link";
 
 const MOBILE_VIEW_SCREEN_SIZE = 978;
 
