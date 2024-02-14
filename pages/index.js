@@ -52,7 +52,7 @@ export default function Home() {
       <CookieConsent
         location="bottom"
         buttonText="De acord"
-        cookieName="cookie-consent"
+        cookieName="consentCookie"
         style={{ background: "var(--grey)" }}
         buttonStyle={{
           color: "white",
@@ -60,6 +60,7 @@ export default function Home() {
           fontSize: "14px",
         }}
         expires={150}
+        onAccept={() => window.location.reload()}
       >
         Website-ul nostru utilizează cookie-uri pentru a vă oferi o experiență
         online personalizată.
