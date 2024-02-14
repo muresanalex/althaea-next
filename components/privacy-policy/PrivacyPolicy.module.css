@@ -20,6 +20,10 @@
   font-weight: 100;
 }
 
+.link {
+  color: var(--primary);
+}
+
 @media screen and (max-width: 1079px) {
   .content-wrapper {
     padding: 0 20px;

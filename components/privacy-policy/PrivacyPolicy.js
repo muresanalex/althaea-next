@@ -105,8 +105,16 @@ const PrivacyPolicy = () => {
         dreptul de a accesa, rectifica, șterge sau restricționa prelucrarea
         datelor personale. Pentru a exercita aceste drepturi sau pentru orice
         întrebări privind politica noastră de confidențialitate, vă rugăm să ne
-        contactați la adresa
-        [althaea.farm@yahoo.com](mailto:althaea.farm@yahoo.com).
+        contactați la adresa{" "}
+        <a
+          href={"mailto:althaea.farm@yahoo.com"}
+          className={styles.link}
+          target="_blank"
+          rel="noreferrer"
+        >
+          althaea.farm@yahoo.com
+        </a>
+        .
       </p>
       <h2>8. Actualizări ale politicii de confidențialitate</h2>
       <p>
